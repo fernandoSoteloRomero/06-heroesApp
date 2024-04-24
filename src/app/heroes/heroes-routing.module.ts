@@ -20,7 +20,7 @@ const routes: Routes = [
         component: SearchHeroPageComponent
       },
       {
-        path: 'list-heros',
+        path: 'list-heroes',
         component: ListPageComponent
       },
       {

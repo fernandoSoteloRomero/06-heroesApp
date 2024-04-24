@@ -11,7 +11,7 @@ export class LayoutPageComponent {
     {
       label: 'Listado',
       icon: 'label',
-      url:'./list'
+      url:'./list-heroes'
     },
     {
       label: 'Añadir',
@@ -21,7 +21,7 @@ export class LayoutPageComponent {
     {
       label: 'Buscar',
       icon: 'search',
-      url:'./search'
+      url:'./search-hero'
     },
   ]
 }
