@@ -2,11 +2,19 @@
   "users": [
     {
       "id": 1,
-      "usuario": "John Doe",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
   "heroes": [
+    {
+      "id": "dc-batman",
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27",
+      "characters": "Bruce Wayne"
+    },
     {
       "id": "dc-superman",
       "superhero": "Superman",
@@ -21,8 +29,7 @@
       "publisher": "DC Comics",
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
-      "alt_img": null
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
     },
     {
       "id": "dc-green",
@@ -159,15 +166,6 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
-    },
-    {
-      "id": "2uOENJN",
-      "superhero": "Fernando",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Sote",
-      "first_appearance": "Uacj 2017",
-      "characters": "Fernando",
-      "alt_img": "https://i.blogs.es/12a5f3/aquaman-image2/1366_2000.jpg"
     }
   ]
 }

@@ -60,6 +60,7 @@ export class AddNewHeroPageComponent implements OnInit {
       this.heroesService.updateHero(this.currentHero).subscribe((hero) => {
         // TODO: Mostrar snackbar
         this.showSnackbar(`${hero.superhero} actualizado!`);
+        this.router.navigateByUrl('/heroes/list-heroes');
       });
       return;
     }
